@@ -1,0 +1,17 @@
+# See: https://lando.dev/
+
+name: psychonet
+
+# See: https://docs.lando.dev/core/v3/proxy.html
+proxy:
+  appserver:
+    - web.psychonet.lndo.site
+
+# See: https://docs.lando.dev/core/v3/services.html
+services:
+  appserver:
+    type: nginx
+    ssl: true
+    webroot: public
+    run_as_root:
+      - "chown www-data: -R /app"
