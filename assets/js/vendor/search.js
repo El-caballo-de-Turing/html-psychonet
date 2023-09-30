@@ -42,7 +42,7 @@ function builderUserToxic(data) {
  * @param data
  */
 function builderUserTopic(data) {
-	const dom = jQuery('.js-user-topics');
+	const dom = jQuery('.js-user-topic');
 	dom.removeClass( 'active' ).empty();
 
 	const { enriched_information } = data;
@@ -148,12 +148,66 @@ function builderChart(data) {
  * @param data
  */
 function builderMessage(data) {
+	const dom = jQuery('.js-user-message');
+	dom.removeClass( 'active' ).empty();
+
 	const { tweets } = data;
 	if (tweets === 'undefined') {
 		return;
 	}
 
-	console.log(tweets);
+	const title = jQuery(
+		"<h2>",
+		{ class: 'wrapper__title', text: 'Messages' }
+	);
+	let list = [];
+	tweets.forEach((obj) => {
+		const { hashtags, mentions, original_text, rts, sentiment } = obj;
+
+		const domText = jQuery(
+			"<p>",
+			{ class: 'wrapper__text', text: original_text }
+		);
+		const domHashtags = jQuery(
+			"<p>",
+			{ class: 'wrapper__text', text: hashtags }
+		);
+		const domMentions = jQuery(
+			"<p>",
+			{ class: 'wrapper__text', text: mentions }
+		);
+		const domRts = jQuery(
+			"<p>",
+			{ class: 'wrapper__text', text: rts }
+		);
+		const domSentiment = jQuery(
+			"<p>",
+			{ class: 'wrapper__text', text: sentiment }
+		);
+		let classes = 'wrapper__element';
+		if (sentiment === 'Positiva') {
+			classes += ' positive';
+		} else if (sentiment === 'Negativa') {
+			classes += ' negative';
+		} else {
+			classes += ' neutral';
+		}
+
+		list.push(
+			jQuery( "<div>", { class: classes } ).append(
+				domText,
+				domHashtags,
+				domMentions,
+				domRts,
+				domSentiment
+			)
+		);
+	});
+
+	dom.addClass( 'active' ).append(
+		title,
+		jQuery( "<div>", { class: 'wrapper__list' } ).append(list)
+	);
 }
 
 /**
@@ -181,7 +235,6 @@ function searchByUser(user) {
 					return;
 				}
 
-				console.log(data);
 				builderUserToxic(data);
 				builderUserTopic(data);
 				builderClarification(data);
