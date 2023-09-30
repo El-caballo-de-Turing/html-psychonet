@@ -3,6 +3,82 @@
  *
  * @param data
  */
+function builderUserToxic(data) {
+	const dom = jQuery('.js-user-toxic');
+	dom.removeClass( 'active' ).empty();
+
+	const { enriched_information } = data;
+	if (enriched_information === 'undefined') {
+		return;
+	}
+
+	const { toxic_interactions } = enriched_information;
+	if (toxic_interactions === 'undefined') {
+		return;
+	}
+
+	const title = jQuery(
+		"<h2>",
+		{ class: 'wrapper__title', text: 'Toxic users' }
+	);
+	let list = [];
+	toxic_interactions.forEach((obj) => {
+		const item = jQuery(
+			"<span>",
+			{ class: 'wrapper__tag', text: obj }
+		);
+		list.push(item);
+	});
+
+	dom.addClass( 'active' ).append(
+		title,
+		jQuery( "<div>", { class: 'wrapper__list' } ).append(list)
+	);
+}
+
+/**
+ * TODO Short description.
+ *
+ * @param data
+ */
+function builderUserTopic(data) {
+	const dom = jQuery('.js-user-topics');
+	dom.removeClass( 'active' ).empty();
+
+	const { enriched_information } = data;
+	if (enriched_information === 'undefined') {
+		return;
+	}
+
+	const { negative_topics } = enriched_information;
+	if (negative_topics === 'undefined') {
+		return;
+	}
+
+	const title = jQuery(
+		"<h2>",
+		{ class: 'wrapper__title', text: 'Negative topics' }
+	);
+	let list = [];
+	negative_topics.forEach((obj) => {
+		const item = jQuery(
+			"<span>",
+			{ class: 'wrapper__tag', text: obj }
+		);
+		list.push(item);
+	});
+
+	dom.addClass( 'active' ).append(
+		title,
+		jQuery( "<div>", { class: 'wrapper__list' } ).append(list)
+	);
+}
+
+/**
+ * TODO Short description.
+ *
+ * @param data
+ */
 function builderClarification(data) {
 	const dom = jQuery('.js-user-clarification');
 	dom.removeClass( 'active' ).empty();
@@ -17,11 +93,15 @@ function builderClarification(data) {
 		return;
 	}
 
+	const title = jQuery(
+		"<h2>",
+		{ class: 'wrapper__title', text: 'Clarifications (By ChatGPT)' }
+	);
 	const text = jQuery(
 		"<p>",
 		{ class: 'wrapper__text', text: chatgpt_response }
 	);
-	dom.addClass( 'active' ).append( text );
+	dom.addClass( 'active' ).append( title, text );
 }
 
 /**
@@ -30,7 +110,36 @@ function builderClarification(data) {
  * @param data
  */
 function builderChart(data) {
-	console.log('builderChart');
+	const dom = jQuery('.js-user-chart');
+	dom.removeClass( 'active' ).empty();
+
+	const { enriched_information } = data;
+	if (enriched_information === 'undefined') {
+		return;
+	}
+
+	const { sentiment_sequence } = enriched_information;
+	if (sentiment_sequence === 'undefined') {
+		return;
+	}
+
+	const title = jQuery(
+		"<h2>",
+		{ class: 'wrapper__title', text: 'Sentiment sequence' }
+	);
+	let list = [];
+	sentiment_sequence.forEach((obj) => {
+		const item = jQuery(
+			"<span>",
+			{ class: 'wrapper__tag', text: obj }
+		);
+		list.push(item);
+	});
+
+	dom.addClass( 'active' ).append(
+		title,
+		jQuery( "<div>", { class: 'wrapper__list' } ).append(list)
+	);
 }
 
 /**
@@ -72,6 +181,9 @@ function searchByUser(user) {
 					return;
 				}
 
+				console.log(data);
+				builderUserToxic(data);
+				builderUserTopic(data);
 				builderClarification(data);
 				builderChart(data);
 				builderMessage(data);

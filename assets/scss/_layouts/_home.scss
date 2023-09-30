@@ -12,7 +12,7 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 250px;
+  max-width: 200px;
   height: 100%;
   padding: 20px;
   background: $background-grey;
@@ -44,15 +44,29 @@
   height: 100%;
   background: $white;
 
-  &__clarifications {
+  &__item {
     display: none;
     margin: 50px 100px;
-    background: #ebf3fe;
-    padding: 20px;
-    border-radius: 7px;
+
+    &--clarifications {
+      .wrapper_text {
+        background: #ebf3fe;
+        padding: 20px;
+        border-radius: 7px;
+      }
+    }
 
     &.active {
       display: flex;
+      flex-direction: column;
     }
+  }
+
+  &__title {
+    margin-bottom: 10px;
+  }
+
+  &__tag {
+    margin-right: 10px;
   }
 }
