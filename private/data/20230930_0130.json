@@ -1,0 +1,254 @@
+{
+  "enriched_information": {
+    "negative_topics": [
+      "000 patients discharged",
+      "genes may leave",
+      "hong kong arrests",
+      "25 million hectares",
+      "bmc denies covid"
+    ],
+    "sentiment_sequence": [
+      "Positiva",
+      "Neutral",
+      "Negativa",
+      "Neutral",
+      "Negativa",
+      "Negativa",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Positiva",
+      "Positiva",
+      "Positiva",
+      "Positiva",
+      "Positiva",
+      "Neutral",
+      "Negativa",
+      "Neutral",
+      "Neutral",
+      "Negativa",
+      "Positiva",
+      "Positiva",
+      "Neutral",
+      "Neutral",
+      "Negativa",
+      "Negativa"
+    ],
+    "toxic_interactions": [
+      "timesofindia",
+      "GuardianAus",
+      "bopinion"
+    ]
+  },
+  "tweets": [
+    {
+      "hashtags": "CoronavirusPandemic, CoronaVirusOutbreak",
+      "mentions": "timesofindia",
+      "original_text": "RT @timesofindia: PCI asks govt, media houses to help journalists who have contracted COVID-19\n\n#CoronavirusPandemic #CoronaVirusOutbreak\u2026",
+      "rts": "1150.0",
+      "sentiment": "Positiva",
+      "text": "pci ask govt medium hous help journalist contract covid19"
+    },
+    {
+      "hashtags": "",
+      "mentions": "htTweets",
+      "original_text": "RT @htTweets: \"We are sending the labourers who are stranded in other districts of the state to their home districts. We have arranged vehi\u2026",
+      "rts": "1882.0",
+      "sentiment": "Neutral",
+      "text": "send labour strand district state home district arrang vehi"
+    },
+    {
+      "hashtags": "",
+      "mentions": "GuardianAus",
+      "original_text": "RT @GuardianAus: Hong Kong arrests and Taiwan flybys: China advances its interests during Covid-19 crisis https://t.co/YbYGYrsAW1",
+      "rts": "0.0",
+      "sentiment": "Negativa",
+      "text": "hong kong arrest taiwan flybi china advanc interest covid19 crisi"
+    },
+    {
+      "hashtags": "",
+      "mentions": "TOICitiesNews",
+      "original_text": "RT @TOICitiesNews: \u2018Five clusters contributing to Covid-19 cases in Chennai\u2019 https://t.co/8NrraHW6Z1",
+      "rts": "5.0",
+      "sentiment": "Neutral",
+      "text": "five cluster contribut covid19 case chennai"
+    },
+    {
+      "hashtags": "",
+      "mentions": "timesofindia",
+      "original_text": "RT @timesofindia: India's Covid-19 mortality rate lowest in world, over 10,000 patients discharged: Harsh Vardhan https://t.co/3ODZxSuP2f h\u2026",
+      "rts": "4.0",
+      "sentiment": "Negativa",
+      "text": "india covid19 mortal rate lowest world patient discharg harsh vardhan "
+    },
+    {
+      "hashtags": "",
+      "mentions": "bopinion",
+      "original_text": "RT @bopinion: Locusts have damaged more than 25 million hectares of farmland in Ethiopia, Kenya and Somalia. \n\nWorse is to come, but the co\u2026",
+      "rts": "0.0",
+      "sentiment": "Negativa",
+      "text": "locust damag million hectar farmland ethiopia kenya somalia wors come co"
+    },
+    {
+      "hashtags": "Cricket",
+      "mentions": "timesofindia",
+      "original_text": "RT @timesofindia: #Cricket\n\nKookaburra develops wax applicator as alternative to polish cricket balls in post COVID-19 world\n\nRead: https:/\u2026",
+      "rts": "5765.0",
+      "sentiment": "Neutral",
+      "text": "kookaburra develop wax applic altern polish cricket ball post covid19 world read http"
+    },
+    {
+      "hashtags": "",
+      "mentions": "guardianopinion",
+      "original_text": "RT @guardianopinion: UK behind the curve in curbing Covid-19 deaths | Letters https://t.co/S6BD6HU7Em",
+      "rts": "1.0",
+      "sentiment": "Neutral",
+      "text": "uk behind curv curb covid19 death letter"
+    },
+    {
+      "hashtags": "",
+      "mentions": "guardianworld",
+      "original_text": "RT @guardianworld: French hospital discovers Covid-19 case from December https://t.co/croyRmmLXF",
+      "rts": "1.0",
+      "sentiment": "Neutral",
+      "text": "french hospit discov covid19 case decemb"
+    },
+    {
+      "hashtags": "CoronavirusOutbreak",
+      "mentions": "htTweets, joydeepthakur",
+      "original_text": "RT @htTweets: #CoronavirusOutbreak | Kolkata man becomes 1st Indian to beat Covid-19 after 38 days on ventilator\n\n(reports @joydeepthakur)\u2026",
+      "rts": "806.0",
+      "sentiment": "Neutral",
+      "text": "kolkata man becom st indian beat covid19 day ventil report"
+    },
+    {
+      "hashtags": "",
+      "mentions": "guardianworld",
+      "original_text": "RT @guardianworld: Irish support for Native American Covid-19 relief highlights historic bond https://t.co/9g1HhL6yOl",
+      "rts": "0.0",
+      "sentiment": "Positiva",
+      "text": "irish support nativ american covid19 relief highlight histor bond"
+    },
+    {
+      "hashtags": "",
+      "mentions": "timesofindia",
+      "original_text": "RT @timesofindia: SC asks Centre to respond to a PIL seeking SOP for quarantining doctors and health workers who are engaged in fighting Co\u2026",
+      "rts": "88.0",
+      "sentiment": "Positiva",
+      "text": "sc ask centr respond pil seek sop quarantin doctor health worker engag fight co"
+    },
+    {
+      "hashtags": "",
+      "mentions": "GuardianAus",
+      "original_text": "RT @GuardianAus: MPs hear why Hong Kong had no Covid-19 care home deaths https://t.co/zH6AzeonJI",
+      "rts": "0.0",
+      "sentiment": "Positiva",
+      "text": "mp hear hong kong covid19 care home death"
+    },
+    {
+      "hashtags": "",
+      "mentions": "GuardianAus",
+      "original_text": "RT @GuardianAus: Trump says he\u2019s taking hydroxychloroquine against Covid-19 despite FDA warnings https://t.co/YgnYIIJiyh",
+      "rts": "1.0",
+      "sentiment": "Positiva",
+      "text": "trump say take hydroxychloroquin covid19 despit fda warn"
+    },
+    {
+      "hashtags": "",
+      "mentions": "GuardianAus",
+      "original_text": "RT @GuardianAus: Republican apologizes for likening Covid-19 curbs to Nazis' persecution of Jews https://t.co/sPVwoKUGBD",
+      "rts": "95.0",
+      "sentiment": "Positiva",
+      "text": "republican apolog liken covid19 curb nazi persecut jew"
+    },
+    {
+      "hashtags": "COVID19",
+      "mentions": "timesofindia",
+      "original_text": "RT @timesofindia: #COVID19 |  Brazil surges to second in coronavirus cases worldwide \n\nREAD--https://t.co/JPxXopAN8N https://t.co/doTR4Qq8BT",
+      "rts": "2662.0",
+      "sentiment": "Neutral",
+      "text": "brazil surg second coronaviru case worldwid read"
+    },
+    {
+      "hashtags": "",
+      "mentions": "TOICitiesNews",
+      "original_text": "RT @TOICitiesNews: Bombay high court rejects plea against Covid-19 burials in Bandra kabrastans https://t.co/6d0FR8fZEd",
+      "rts": "7950.0",
+      "sentiment": "Negativa",
+      "text": "bombay high court reject plea covid19 burial bandra kabrastan"
+    },
+    {
+      "hashtags": "",
+      "mentions": "TOICitiesNews",
+      "original_text": "RT @TOICitiesNews: Delhi HC refuses to direct government to disclose actual Covid-19 count https://t.co/IngoCB57tQ",
+      "rts": "3480.0",
+      "sentiment": "Neutral",
+      "text": "delhi hc refus direct govern disclos actual covid19 count"
+    },
+    {
+      "hashtags": "",
+      "mentions": "timesofindia",
+      "original_text": "RT @timesofindia: Why districts should drive reopening\n\nGetting back workers to districts where most economic activity is located and manag\u2026",
+      "rts": "3.0",
+      "sentiment": "Neutral",
+      "text": "district drive reopen get back worker district econom activ locat manag"
+    },
+    {
+      "hashtags": "",
+      "mentions": "TOICitiesNews",
+      "original_text": "RT @TOICitiesNews: Renewed focus on public health helps state battle Covid-19 crisis https://t.co/EH4umdoj1o",
+      "rts": "1601.0",
+      "sentiment": "Negativa",
+      "text": "renew focu public health help state battl covid19 crisi"
+    },
+    {
+      "hashtags": "",
+      "mentions": "GuardianUS",
+      "original_text": "RT @GuardianUS: Covid-19 has rocked women's sport but its future remains bright | Sean Ingle https://t.co/urRblq9f61",
+      "rts": "863.0",
+      "sentiment": "Positiva",
+      "text": "covid19 rock woman sport futur remain bright sean ingl"
+    },
+    {
+      "hashtags": "",
+      "mentions": "TOICitiesNews",
+      "original_text": "RT @TOICitiesNews: Mysuru youth with kidney disease test positive for Covid-19, shifted to Bengaluru hospital https://t.co/wAZTY6rA7N",
+      "rts": "14.0",
+      "sentiment": "Positiva",
+      "text": "mysuru youth kidney diseas test posit covid19 shift bengaluru hospit"
+    },
+    {
+      "hashtags": "COVID19",
+      "mentions": "timesofindia",
+      "original_text": "RT @timesofindia: #COVID19 impact: Cricket West Indies to temporarily halve staff, player salaries \n\nRead: https://t.co/Llrj440Cty\n\n#Windie\u2026",
+      "rts": "7.0",
+      "sentiment": "Neutral",
+      "text": "impact cricket west indi temporarili halv staff player salari read"
+    },
+    {
+      "hashtags": "",
+      "mentions": "thenewsminute",
+      "original_text": "RT @thenewsminute: 'Time for action, not criticism': Kamal Haasan launches helpline for COVID-19 https://t.co/hIJDCreVmV",
+      "rts": "716.0",
+      "sentiment": "Neutral",
+      "text": "time action critic kamal haasan launch helplin covid19"
+    },
+    {
+      "hashtags": "",
+      "mentions": "timesofindia",
+      "original_text": "RT @timesofindia: Genes may leave some people more vulnerable to severe Covid-19\n\nWhy do some people infected with the coronavirus suffer o\u2026",
+      "rts": "38342.0",
+      "sentiment": "Negativa",
+      "text": "gene may leav peopl vulner sever covid19 peopl infect coronaviru suffer"
+    },
+    {
+      "hashtags": "",
+      "mentions": "TOICitiesNews",
+      "original_text": "RT @TOICitiesNews: BMC denies Covid-19 tests in Mumbai decreasing https://t.co/c0mOEPVsVC",
+      "rts": "2.0",
+      "sentiment": "Negativa",
+      "text": "bmc deni covid19 test mumbai decreas"
+    }
+  ]
+}

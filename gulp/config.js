@@ -29,6 +29,7 @@ const paths = {
             './assets/js/custom.js'
         ],
         vendor: [
+			'./node_modules/jquery/dist/jquery.min.js',
 			'./node_modules/vanilla-lazyload/dist/lazyload.min.js',
         ],
         dest: theme + 'js/',
