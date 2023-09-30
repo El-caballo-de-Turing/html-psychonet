@@ -7,6 +7,11 @@ function clearDom() {
 	jQuery('.js-user-clarification').removeClass( 'active' ).empty();
 	jQuery('.js-user-chart').removeClass( 'active' ).empty();
 	jQuery('.js-user-message').removeClass( 'active' ).empty();
+	jQuery('.js-user-title').removeClass( 'active' ).empty();
+}
+
+function clearLoader() {
+	jQuery('.loader').remove();
 }
 
 /**
@@ -17,10 +22,14 @@ function clearDom() {
 function builderTitle(user) {
 	const dom = jQuery('.js-user-title');
 	const title = jQuery(
-		"<h3>",
+		"<h2>",
 		{ class: 'wrapper__title', text: user }
 	);
-	dom.addClass( 'active' ).append(title);
+	const loader = jQuery(
+		"<span>",
+		{ class: 'loader' }
+	);
+	dom.addClass( 'active' ).append(title, loader);
 }
 
 /**
@@ -43,7 +52,7 @@ function builderUserToxic(data) {
 	}
 
 	const title = jQuery(
-		"<h2>",
+		"<h3>",
 		{ class: 'wrapper__title', text: 'Toxic users interactions' }
 	);
 	let list = [];
@@ -82,7 +91,7 @@ function builderUserTopic(data) {
 	}
 
 	const title = jQuery(
-		"<h2>",
+		"<h3>",
 		{ class: 'wrapper__title', text: 'Negative topics' }
 	);
 	let list = [];
@@ -121,7 +130,7 @@ function builderClarification(data) {
 	}
 
 	const title = jQuery(
-		"<h2>",
+		"<h3>",
 		{ class: 'wrapper__title', text: 'Clarifications (By ChatGPT)' }
 	);
 	const text = jQuery(
@@ -153,14 +162,22 @@ function builderChart(data) {
 	}
 
 	const title = jQuery(
-		"<h2>",
+		"<h3>",
 		{ class: 'wrapper__title', text: 'Sentiment sequence' }
 	);
 	let list = [];
 	sentiment_sequence.forEach((obj) => {
+		let classes = 'wrapper__tag';
+		if (obj === 'Positivo') {
+			classes += ' positive';
+		} else if (obj === 'Negativo') {
+			classes += ' negative';
+		} else {
+			classes += ' neutral';
+		}
 		const item = jQuery(
 			"<span>",
-			{ class: 'wrapper__tag', text: obj }
+			{ class: classes, text: obj }
 		);
 		list.push(item);
 	});
@@ -187,7 +204,7 @@ function builderMessage(data) {
 	}
 
 	const title = jQuery(
-		"<h2>",
+		"<h3>",
 		{ class: 'wrapper__title', text: 'Messages' }
 	);
 	let list = [];
@@ -215,9 +232,9 @@ function builderMessage(data) {
 			{ class: 'wrapper__text', text: sentiment }
 		);
 		let classes = 'wrapper__element';
-		if (sentiment === 'Positiva') {
+		if (sentiment === 'Positivo') {
 			classes += ' positive';
-		} else if (sentiment === 'Negativa') {
+		} else if (sentiment === 'Negativo') {
 			classes += ' negative';
 		} else {
 			classes += ' neutral';
@@ -237,7 +254,7 @@ function builderMessage(data) {
 	const dom = jQuery('.js-user-message');
 	dom.addClass( 'active' ).append(
 		title,
-		jQuery( "<div>", { class: 'wrapper__list' } ).append(list)
+		jQuery( "<div>", { class: 'wrapper__messages' } ).append(list)
 	);
 }
 
@@ -272,6 +289,7 @@ function searchByUser(user) {
 					return;
 				}
 
+				clearLoader();
 				builderUserToxic(data);
 				builderUserTopic(data);
 				builderClarification(data);

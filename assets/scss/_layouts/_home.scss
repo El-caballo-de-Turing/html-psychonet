@@ -15,7 +15,6 @@
   max-width: 200px;
   height: 100%;
   padding: 20px;
-  background: $background-grey;
   border-right: 1px solid $mid-grey;
 
   &__logo {
@@ -41,24 +40,51 @@
 }
 
 .wrapper {
+  width: 100%;
   height: 100%;
   background: $white;
 
   &__item {
     display: none;
+    flex-direction: column;
+    flex-wrap: wrap;
     margin: 50px 100px;
 
     &--clarifications {
-      .wrapper_text {
-        background: #ebf3fe;
-        padding: 20px;
-        border-radius: 7px;
-      }
+      background: #ebf3fe;
+      padding: 20px;
+      border-radius: 7px;
     }
 
     &.active {
       display: flex;
-      flex-direction: column;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__messages {
+    display: flex;
+    flex-wrap: wrap;
+
+    .wrapper__element {
+      width: 32%;
+      margin-right: 1%;
+      background: #ebf3fe;
+      padding: 20px;
+      border-radius: 7px;
+    }
+
+    .positive {
+      background: $success;
+    }
+
+    .negative {
+      background: $danger;
+      color: $white;
     }
   }
 
@@ -71,6 +97,19 @@
   }
 
   &__tag {
+    padding: 4px;
+    margin-top: 4px;
     margin-right: 10px;
+    border-radius: 7px;
+    background: #ebf3fe;
+
+    &.positive {
+      background: $success;
+    }
+
+    &.negative {
+      background: $danger;
+      color: $white;
+    }
   }
 }
