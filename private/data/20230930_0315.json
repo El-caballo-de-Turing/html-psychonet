@@ -1,0 +1,316 @@
+{
+  "enriched_information": {
+    "chatgpt_response": "\n\nExiste una relaci\u00f3n entre 25 millones de hect\u00e1reas, la severa Covid-19, Somalia y la tristeza o ansiedad que esto puede causar. En Somalia, la pandemia de Covid-19 se ha sumado a los problemas que ya exist\u00edan, como la sequ\u00eda, la pobreza y la inseguridad alimentaria. Estos factores han provocado que el 20% de la poblaci\u00f3n del pa\u00eds ahora viva en condiciones de inseguridad alimentaria severa, lo que ha obligado a 25 millones de hect\u00e1reas a un estado de emergencia alimentaria. Esta situaci\u00f3n puede causar mucha tristeza y ansiedad entre la poblaci\u00f3n de Somalia.",
+    "negative_topics": [
+      "25 million hectares",
+      "severe covid19",
+      "somalia worse"
+    ],
+    "sentiment_sequence": [
+      "Positiva",
+      "Neutral",
+      "Negativa",
+      "Neutral",
+      "Negativa",
+      "Negativa",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Neutral",
+      "Positiva",
+      "Positiva",
+      "Positiva",
+      "Positiva",
+      "Positiva",
+      "Neutral",
+      "Negativa",
+      "Neutral",
+      "Neutral",
+      "Negativa",
+      "Positiva",
+      "Positiva",
+      "Neutral",
+      "Positiva",
+      "Negativa",
+      "Negativa",
+      "Negativa",
+      "Neutral",
+      "Neutral",
+      "Positiva",
+      "Neutral",
+      "Neutral",
+      "Positiva"
+    ],
+    "toxic_interactions": [
+      "guardianworld",
+      "bopinion",
+      "GuardianAus"
+    ]
+  },
+  "tweets": [
+    {
+      "hashtags": "CoronavirusPandemic, CoronaVirusOutbreak",
+      "mentions": "timesofindia",
+      "original_text": "RT  PCI asks govt media houses to help journalists who have contracted COVID19\n\nCoronavirusPandemic CoronaVirusOutbreak",
+      "rts": "1150.0",
+      "sentiment": "Positiva",
+      "text": "pci ask govt medium hous help journalist contract covid19"
+    },
+    {
+      "hashtags": "",
+      "mentions": "htTweets",
+      "original_text": "RT  We are sending the labourers who are stranded in other districts of the state to their home districts We have arranged vehi",
+      "rts": "1882.0",
+      "sentiment": "Neutral",
+      "text": "send labour strand district state home district arrang vehi"
+    },
+    {
+      "hashtags": "",
+      "mentions": "GuardianAus",
+      "original_text": "RT  Hong Kong arrests and Taiwan flybys China advances its interests during Covid19 crisis ",
+      "rts": "0.0",
+      "sentiment": "Negativa",
+      "text": "hong kong arrest taiwan flybi china advanc interest covid19 crisi"
+    },
+    {
+      "hashtags": "",
+      "mentions": "TOICitiesNews",
+      "original_text": "RT  Five clusters contributing to Covid19 cases in Chennai ",
+      "rts": "5.0",
+      "sentiment": "Neutral",
+      "text": "five cluster contribut covid19 case chennai"
+    },
+    {
+      "hashtags": "",
+      "mentions": "timesofindia",
+      "original_text": "RT  Indias Covid19 mortality rate lowest in world over 10000 patients discharged Harsh Vardhan  h",
+      "rts": "4.0",
+      "sentiment": "Negativa",
+      "text": "india covid19 mortal rate lowest world patient discharg harsh vardhan "
+    },
+    {
+      "hashtags": "",
+      "mentions": "bopinion",
+      "original_text": "RT  Locusts have damaged more than 25 million hectares of farmland in Ethiopia Kenya and Somalia \n\nWorse is to come but the co",
+      "rts": "0.0",
+      "sentiment": "Negativa",
+      "text": "locust damag million hectar farmland ethiopia kenya somalia wors come co"
+    },
+    {
+      "hashtags": "Cricket",
+      "mentions": "timesofindia",
+      "original_text": "RT  Cricket\n\nKookaburra develops wax applicator as alternative to polish cricket balls in post COVID19 world\n\nRead ",
+      "rts": "5765.0",
+      "sentiment": "Neutral",
+      "text": "kookaburra develop wax applic altern polish cricket ball post covid19 world read http"
+    },
+    {
+      "hashtags": "",
+      "mentions": "guardianopinion",
+      "original_text": "RT  UK behind the curve in curbing Covid19 deaths  Letters ",
+      "rts": "1.0",
+      "sentiment": "Neutral",
+      "text": "uk behind curv curb covid19 death letter"
+    },
+    {
+      "hashtags": "",
+      "mentions": "guardianworld",
+      "original_text": "RT  French hospital discovers Covid19 case from December ",
+      "rts": "1.0",
+      "sentiment": "Neutral",
+      "text": "french hospit discov covid19 case decemb"
+    },
+    {
+      "hashtags": "CoronavirusOutbreak",
+      "mentions": "htTweets, joydeepthakur",
+      "original_text": "RT  CoronavirusOutbreak  Kolkata man becomes 1st Indian to beat Covid19 after 38 days on ventilator\n\nreports ",
+      "rts": "806.0",
+      "sentiment": "Neutral",
+      "text": "kolkata man becom st indian beat covid19 day ventil report"
+    },
+    {
+      "hashtags": "",
+      "mentions": "guardianworld",
+      "original_text": "RT  Irish support for Native American Covid19 relief highlights historic bond ",
+      "rts": "0.0",
+      "sentiment": "Positiva",
+      "text": "irish support nativ american covid19 relief highlight histor bond"
+    },
+    {
+      "hashtags": "",
+      "mentions": "timesofindia",
+      "original_text": "RT  SC asks Centre to respond to a PIL seeking SOP for quarantining doctors and health workers who are engaged in fighting Co",
+      "rts": "88.0",
+      "sentiment": "Positiva",
+      "text": "sc ask centr respond pil seek sop quarantin doctor health worker engag fight co"
+    },
+    {
+      "hashtags": "",
+      "mentions": "GuardianAus",
+      "original_text": "RT  MPs hear why Hong Kong had no Covid19 care home deaths ",
+      "rts": "0.0",
+      "sentiment": "Positiva",
+      "text": "mp hear hong kong covid19 care home death"
+    },
+    {
+      "hashtags": "",
+      "mentions": "GuardianAus",
+      "original_text": "RT  Trump says hes taking hydroxychloroquine against Covid19 despite FDA warnings ",
+      "rts": "1.0",
+      "sentiment": "Positiva",
+      "text": "trump say take hydroxychloroquin covid19 despit fda warn"
+    },
+    {
+      "hashtags": "",
+      "mentions": "GuardianAus",
+      "original_text": "RT  Republican apologizes for likening Covid19 curbs to Nazis persecution of Jews ",
+      "rts": "95.0",
+      "sentiment": "Positiva",
+      "text": "republican apolog liken covid19 curb nazi persecut jew"
+    },
+    {
+      "hashtags": "COVID19",
+      "mentions": "timesofindia",
+      "original_text": "RT  COVID19   Brazil surges to second in coronavirus cases worldwide \n\nREAD ",
+      "rts": "2662.0",
+      "sentiment": "Neutral",
+      "text": "brazil surg second coronaviru case worldwid read"
+    },
+    {
+      "hashtags": "",
+      "mentions": "TOICitiesNews",
+      "original_text": "RT  Bombay high court rejects plea against Covid19 burials in Bandra kabrastans ",
+      "rts": "7950.0",
+      "sentiment": "Negativa",
+      "text": "bombay high court reject plea covid19 burial bandra kabrastan"
+    },
+    {
+      "hashtags": "",
+      "mentions": "TOICitiesNews",
+      "original_text": "RT  Delhi HC refuses to direct government to disclose actual Covid19 count ",
+      "rts": "3480.0",
+      "sentiment": "Neutral",
+      "text": "delhi hc refus direct govern disclos actual covid19 count"
+    },
+    {
+      "hashtags": "",
+      "mentions": "timesofindia",
+      "original_text": "RT  Why districts should drive reopening\n\nGetting back workers to districts where most economic activity is located and manag",
+      "rts": "3.0",
+      "sentiment": "Neutral",
+      "text": "district drive reopen get back worker district econom activ locat manag"
+    },
+    {
+      "hashtags": "",
+      "mentions": "TOICitiesNews",
+      "original_text": "RT  Renewed focus on public health helps state battle Covid19 crisis ",
+      "rts": "1601.0",
+      "sentiment": "Negativa",
+      "text": "renew focu public health help state battl covid19 crisi"
+    },
+    {
+      "hashtags": "",
+      "mentions": "GuardianUS",
+      "original_text": "RT  Covid19 has rocked womens sport but its future remains bright  Sean Ingle ",
+      "rts": "863.0",
+      "sentiment": "Positiva",
+      "text": "covid19 rock woman sport futur remain bright sean ingl"
+    },
+    {
+      "hashtags": "",
+      "mentions": "TOICitiesNews",
+      "original_text": "RT  Mysuru youth with kidney disease test positive for Covid19 shifted to Bengaluru hospital ",
+      "rts": "14.0",
+      "sentiment": "Positiva",
+      "text": "mysuru youth kidney diseas test posit covid19 shift bengaluru hospit"
+    },
+    {
+      "hashtags": "COVID19",
+      "mentions": "timesofindia",
+      "original_text": "RT  COVID19 impact Cricket West Indies to temporarily halve staff player salaries \n\nRead \n\nWindie",
+      "rts": "7.0",
+      "sentiment": "Neutral",
+      "text": "impact cricket west indi temporarili halv staff player salari read"
+    },
+    {
+      "hashtags": "",
+      "mentions": "thenewsminute",
+      "original_text": "RT  Time for action not criticism Kamal Haasan launches helpline for COVID19 ",
+      "rts": "716.0",
+      "sentiment": "Positiva",
+      "text": "time action critic kamal haasan launch helplin covid19"
+    },
+    {
+      "hashtags": "",
+      "mentions": "timesofindia",
+      "original_text": "RT  Genes may leave some people more vulnerable to severe Covid19\n\nWhy do some people infected with the coronavirus suffer o",
+      "rts": "38342.0",
+      "sentiment": "Negativa",
+      "text": "gene may leav peopl vulner sever covid19 peopl infect coronaviru suffer"
+    },
+    {
+      "hashtags": "",
+      "mentions": "TOICitiesNews",
+      "original_text": "RT  BMC denies Covid19 tests in Mumbai decreasing ",
+      "rts": "2.0",
+      "sentiment": "Negativa",
+      "text": "bmc deni covid19 test mumbai decreas"
+    },
+    {
+      "hashtags": "",
+      "mentions": "guardianworld",
+      "original_text": "RT  Syringe shortage could hamper delivery of Covid19 vaccine experts warn ",
+      "rts": "9.0",
+      "sentiment": "Negativa",
+      "text": "syring shortag could hamper deliveri covid19 vaccin eert warn"
+    },
+    {
+      "hashtags": "",
+      "mentions": "guardianopinion",
+      "original_text": "RT  Boris Johnson is delaying the inevitable again  and watching as Covid19 surges  Polly Toynbee ",
+      "rts": "2642.0",
+      "sentiment": "Neutral",
+      "text": "bori johnson delay inevit watch covid19 surg polli toynbe"
+    },
+    {
+      "hashtags": "",
+      "mentions": "livemint",
+      "original_text": "RT  During the launch Maharashtra governor expressed hope that like cancer researchers will soon find a cure for COVID19\n\n htt",
+      "rts": "0.0",
+      "sentiment": "Neutral",
+      "text": "launch maharashtra governor eress hope like cancer research soon find cure covid19 htt"
+    },
+    {
+      "hashtags": "Coronavirus, AhmedPatel",
+      "mentions": "scroll_in",
+      "original_text": "RT  Coronavirus Congress leader AhmedPatel says he has tested positive \n\nLive blog  ",
+      "rts": "347.0",
+      "sentiment": "Positiva",
+      "text": "congress leader say test posit live blog"
+    },
+    {
+      "hashtags": "",
+      "mentions": "EconomistOnce",
+      "original_text": "RT  The world marks 1m deaths from covid19  ",
+      "rts": "1276.0",
+      "sentiment": "Neutral",
+      "text": "world mark death covid19"
+    },
+    {
+      "hashtags": "",
+      "mentions": "GuardianUS",
+      "original_text": "RT  Donald Trump receiving Covid19 treatment yet to be peerreviewed ",
+      "rts": "108.0",
+      "sentiment": "Neutral",
+      "text": "donald trump receiv covid19 treatment yet peer review"
+    },
+    {
+      "hashtags": "",
+      "mentions": "GuardianUS",
+      "original_text": "RT  Boris Johnson sends best wishes to the Trumps after Covid19 diagnosis  video ",
+      "rts": "117.0",
+      "sentiment": "Positiva",
+      "text": "bori johnson send best wish trump covid19 diagnosi video"
+    }
+  ]
+}

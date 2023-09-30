@@ -12,6 +12,8 @@
 <html lang="es-ES" prefix="og: http://ogp.me/ns#">
 <!--<![endif]-->
 <head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Assets -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,42 +22,14 @@
     <!-- Title -->
     <title>PsychoNet by the Turing horse</title>
     <!-- Information -->
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <!-- SocialMedia -->
-    <meta property="og:locale" content="es_ES">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="">
-    <meta property="og:description" content="">
-    <meta property="og:url" content="">
-    <meta property="og:site_name" content="">
-    <meta property="og:image" content="">
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:description" content="">
-    <meta name="twitter:title" content="">
-    <meta name="twitter:site" content="">
-    <meta name="twitter:image" content="">
-    <meta name="twitter:creator" content="">
-    <!-- Icons: .png -->
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/favicon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/favicon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/favicon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/favicon/apple-touch-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/favicon/apple-touch-icon-180x180.png">
-    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-16x16.png" sizes="16x16">
-    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-160x160.png" sizes="160x160">
-    <link rel="icon" type="image/png" href="/assets/img/favicon/favicon-192x192.png" sizes="192x192">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/assets/img/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <meta name="author" content="the Turing horse">
+    <meta name="description" content="Tool for monitoring the social media behavior of a psychologist's patients.">
+    <!-- Favicon.ico -->
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
     <!-- Assets CSS: Critical Path -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link type="text/css" href="assets/vendor/normalize.css" rel="stylesheet">
     <link type="text/css" href="assets/css/critical.css" rel="stylesheet">
 </head>
 <body oncontextmenu="return true" onkeydown="return true">
@@ -66,8 +40,28 @@
     </noscript>
 
     <!-- START: Main -->
-    <main>
-        <h1>Hello World!</h1>
+    <main class="main">
+		<div class="aside">
+			<div class="aside__header">
+				<h1 class="aside__logo">PsychoNet</h1>
+			</div>
+			<div class="aside__users">
+				<div class="aside__user js-user-action" data-user="varun18vijay">varun18vijay</div>
+				<div class="aside__user js-user-action" data-user="sumanebot">sumanebot</div>
+				<div class="aside__user js-user-action" data-user="PulpNews">PulpNews</div>
+				<div class="aside__user js-user-action" data-user="easyJet">easyJet</div>
+				<div class="aside__user js-user-action" data-user="dev_discourse">dev_discourse</div>
+				<div class="aside__user js-user-action" data-user="IAM__Network">IAM__Network</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="wrapper__item wrapper__item--title js-user-title"></div>
+			<div class="wrapper__item wrapper__item--toxic js-user-toxic"></div>
+			<div class="wrapper__item wrapper__item--topics js-user-topic"></div>
+			<div class="wrapper__item wrapper__item--clarifications js-user-clarification"></div>
+			<div class="wrapper__item wrapper__item--chart js-user-chart"></div>
+			<div class="wrapper__item wrapper__item--messages js-user-message"></div>
+		</div>
     </main>
     <!-- END: Main -->
 
@@ -75,15 +69,7 @@
     <link type="text/css" href="assets/css/style.css" rel="stylesheet">
 
     <!-- Assets JS -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/vendor/jquery.min.js"></script>
     <script src="assets/js/script.js"></script>
-    <script>
-        (function ($) {
-            $(document).ready(function () {
-                // Write JavaScript or jQuery
-            });
-        })(jQuery);
-    </script>
 </body>
 </html>
