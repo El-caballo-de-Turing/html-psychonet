@@ -1,12 +1,34 @@
 /**
  * TODO Short description.
+ */
+function clearDom() {
+	jQuery('.js-user-toxic').removeClass( 'active' ).empty();
+	jQuery('.js-user-topic').removeClass( 'active' ).empty();
+	jQuery('.js-user-clarification').removeClass( 'active' ).empty();
+	jQuery('.js-user-chart').removeClass( 'active' ).empty();
+	jQuery('.js-user-message').removeClass( 'active' ).empty();
+}
+
+/**
+ * TODO Short description.
+ *
+ * @param user
+ */
+function builderTitle(user) {
+	const dom = jQuery('.js-user-title');
+	const title = jQuery(
+		"<h3>",
+		{ class: 'wrapper__title', text: user }
+	);
+	dom.addClass( 'active' ).append(title);
+}
+
+/**
+ * TODO Short description.
  *
  * @param data
  */
 function builderUserToxic(data) {
-	const dom = jQuery('.js-user-toxic');
-	dom.removeClass( 'active' ).empty();
-
 	const { enriched_information } = data;
 	if (enriched_information === 'undefined') {
 		return;
@@ -16,10 +38,13 @@ function builderUserToxic(data) {
 	if (toxic_interactions === 'undefined') {
 		return;
 	}
+	if (toxic_interactions.length === 0) {
+		return;
+	}
 
 	const title = jQuery(
 		"<h2>",
-		{ class: 'wrapper__title', text: 'Toxic users' }
+		{ class: 'wrapper__title', text: 'Toxic users interactions' }
 	);
 	let list = [];
 	toxic_interactions.forEach((obj) => {
@@ -30,6 +55,7 @@ function builderUserToxic(data) {
 		list.push(item);
 	});
 
+	const dom = jQuery('.js-user-toxic');
 	dom.addClass( 'active' ).append(
 		title,
 		jQuery( "<div>", { class: 'wrapper__list' } ).append(list)
@@ -42,9 +68,6 @@ function builderUserToxic(data) {
  * @param data
  */
 function builderUserTopic(data) {
-	const dom = jQuery('.js-user-topic');
-	dom.removeClass( 'active' ).empty();
-
 	const { enriched_information } = data;
 	if (enriched_information === 'undefined') {
 		return;
@@ -52,6 +75,9 @@ function builderUserTopic(data) {
 
 	const { negative_topics } = enriched_information;
 	if (negative_topics === 'undefined') {
+		return;
+	}
+	if (negative_topics.length === 0) {
 		return;
 	}
 
@@ -68,6 +94,7 @@ function builderUserTopic(data) {
 		list.push(item);
 	});
 
+	const dom = jQuery('.js-user-topic');
 	dom.addClass( 'active' ).append(
 		title,
 		jQuery( "<div>", { class: 'wrapper__list' } ).append(list)
@@ -80,9 +107,6 @@ function builderUserTopic(data) {
  * @param data
  */
 function builderClarification(data) {
-	const dom = jQuery('.js-user-clarification');
-	dom.removeClass( 'active' ).empty();
-
 	const { enriched_information } = data;
 	if (enriched_information === 'undefined') {
 		return;
@@ -90,6 +114,9 @@ function builderClarification(data) {
 
 	const { chatgpt_response } = enriched_information;
 	if (chatgpt_response === 'undefined') {
+		return;
+	}
+	if (chatgpt_response.length === 0) {
 		return;
 	}
 
@@ -101,6 +128,8 @@ function builderClarification(data) {
 		"<p>",
 		{ class: 'wrapper__text', text: chatgpt_response }
 	);
+
+	const dom = jQuery('.js-user-clarification');
 	dom.addClass( 'active' ).append( title, text );
 }
 
@@ -110,9 +139,6 @@ function builderClarification(data) {
  * @param data
  */
 function builderChart(data) {
-	const dom = jQuery('.js-user-chart');
-	dom.removeClass( 'active' ).empty();
-
 	const { enriched_information } = data;
 	if (enriched_information === 'undefined') {
 		return;
@@ -120,6 +146,9 @@ function builderChart(data) {
 
 	const { sentiment_sequence } = enriched_information;
 	if (sentiment_sequence === 'undefined') {
+		return;
+	}
+	if (sentiment_sequence.length === 0) {
 		return;
 	}
 
@@ -136,6 +165,7 @@ function builderChart(data) {
 		list.push(item);
 	});
 
+	const dom = jQuery('.js-user-chart');
 	dom.addClass( 'active' ).append(
 		title,
 		jQuery( "<div>", { class: 'wrapper__list' } ).append(list)
@@ -148,11 +178,11 @@ function builderChart(data) {
  * @param data
  */
 function builderMessage(data) {
-	const dom = jQuery('.js-user-message');
-	dom.removeClass( 'active' ).empty();
-
 	const { tweets } = data;
 	if (tweets === 'undefined') {
+		return;
+	}
+	if (tweets.length === 0) {
 		return;
 	}
 
@@ -204,6 +234,7 @@ function builderMessage(data) {
 		);
 	});
 
+	const dom = jQuery('.js-user-message');
 	dom.addClass( 'active' ).append(
 		title,
 		jQuery( "<div>", { class: 'wrapper__list' } ).append(list)
@@ -216,17 +247,23 @@ function builderMessage(data) {
  * @param user
  */
 function searchByUser(user) {
-	let url = 'https://jjpeleato.com/hackathon/20230930_0315.json';
+	let url = 'http://127.0.0.1:8088/';
+	if (window.location.hostname === 'web.psychonet.lndo.site') {
+		url = 'https://jjpeleato.com/hackathon/20230930_0315.json';
+	} else {
+		url += user;
+	}
+
+	clearDom();
+	builderTitle(user);
+
 	jQuery.ajax(
 		{
 			type: "GET",
 			url: url,
-			data: {
-				'user': user,
-			},
 			dataType: 'json',
 			crossDomain: true,
-			cache: false,
+			cache: true,
 			beforeSend: function () {
 				console.log('beforeSend');
 			},
