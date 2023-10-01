@@ -1,7 +1,14 @@
 /**
- * TODO Short description.
+ * The `cleanLoader` function reset and clear the loading content.
  */
-function clearDom() {
+function cleanLoader() {
+	jQuery('.loader').remove();
+}
+
+/**
+ * The `cleanDom` function resets and clears the content of specific page elements.
+ */
+function cleanDom() {
 	jQuery('.js-user-toxic').removeClass( 'active' ).empty();
 	jQuery('.js-user-topic').removeClass( 'active' ).empty();
 	jQuery('.js-user-clarification').removeClass( 'active' ).empty();
@@ -10,12 +17,9 @@ function clearDom() {
 	jQuery('.js-user-title').removeClass( 'active' ).empty();
 }
 
-function clearLoader() {
-	jQuery('.loader').remove();
-}
-
 /**
- * TODO Short description.
+ * The `builderTitle` function is responsible for constructing and
+ * displaying a user title.
  *
  * @param user
  */
@@ -33,7 +37,9 @@ function builderTitle(user) {
 }
 
 /**
- * TODO Short description.
+ *
+ * The `builderUserToxic` function is responsible for constructing and
+ * displaying a user toxic part.
  *
  * @param data
  */
@@ -72,7 +78,9 @@ function builderUserToxic(data) {
 }
 
 /**
- * TODO Short description.
+ *
+ * The `builderUserTopic` function is responsible for constructing and
+ * displaying a user topic part.
  *
  * @param data
  */
@@ -111,7 +119,8 @@ function builderUserTopic(data) {
 }
 
 /**
- * TODO Short description.
+ * The `builderClarification` function is responsible for constructing and
+ * displaying a clarification part.
  *
  * @param data
  */
@@ -143,7 +152,8 @@ function builderClarification(data) {
 }
 
 /**
- * TODO Short description.
+ * The `builderClarification` function is responsible for constructing and
+ * displaying a clarification part.
  *
  * @param data
  */
@@ -190,7 +200,7 @@ function builderChart(data) {
 }
 
 /**
- * TODO Short description.
+ * The `builderMessage` function is responsible for constructing and displaying a message part.
  *
  * @param data
  */
@@ -259,19 +269,20 @@ function builderMessage(data) {
 }
 
 /**
- * TODO Short description.
+ * The `searchByUser` function performs a user search operation, fetching and
+ * displaying relevant data. It integrates with jQuery for AJAX requests and DOM manipulation.
  *
  * @param user
  */
 function searchByUser(user) {
 	let url = 'http://127.0.0.1:8088/';
 	if (window.location.hostname === 'web.psychonet.lndo.site') {
-		url = 'https://jjpeleato.com/hackathon/20230930_0315.json';
+		url = 'https://jjpeleato.com/hackathon/20230930_0600.json';
 	} else {
 		url += user;
 	}
 
-	clearDom();
+	cleanDom();
 	builderTitle(user);
 
 	jQuery.ajax(
@@ -289,7 +300,7 @@ function searchByUser(user) {
 					return;
 				}
 
-				clearLoader();
+				cleanLoader();
 				builderUserToxic(data);
 				builderUserTopic(data);
 				builderClarification(data);
@@ -304,18 +315,21 @@ function searchByUser(user) {
 }
 
 /**
- * TODO Short description
+ * The `userAction` function enhances user interaction by enabling a click event
+ * on elements with the class 'js-user-action.'
  */
 function userAction() {
 	const userAction = jQuery( '.js-user-action' );
 	userAction.on('click', function () {
-		const user = jQuery( this ).attr( 'data-user' );
+		const user = jQuery(this).attr('data-user');
 		searchByUser(user);
 	});
 }
 
 /**
- * TODO Short description
+ * The `initialize` function serves as the entry point for setting up and initializing
+ * various functionalities within the application. In this context, it calls the `userAction`
+ * function to enable user interaction enhancements.
  */
 function initialize() {
 	userAction();
