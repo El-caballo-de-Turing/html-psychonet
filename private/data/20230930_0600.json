@@ -1,0 +1,249 @@
+{
+  "enriched_information": {
+    "chatgpt_response": "La relaci\u00f3n entre el retraso en las respuestas, la pandemia de Covid19 y el hecho de que esto pueda causar tristeza o ansiedad se puede entender desde diferentes perspectivas. \n\nEn primer lugar, durante la pandemia de Covid19 muchas empresas e instituciones se vieron obligadas a disminuir o suspender su actividad, lo que puede haber causado retrasos en las respuestas. Tambi\u00e9n, tanto las empresas como las personas en general se vieron sometidas a una mayor presi\u00f3n y estr\u00e9s, lo que podr\u00eda haber llevado a retrasos o descuidos en diversas actividades.\n\nAdem\u00e1s, la \"pandemia de Covid19\" significa que estamos viviendo en un tiempo de incertidumbre y cambio. Esto puede generar estr\u00e9s y ansiedad, especialmente si las respuestas que esperamos -ya sea a correos electr\u00f3nicos, mensajes, resultados de pruebas, etc.- se retrasan.\n\nAl estar a la espera de una respuesta importante, el tiempo puede parecer eterno y la incertidumbre puede aumentar nuestros niveles de ansiedad. Si a esto se a\u00f1ade el contexto de la pandemia, donde hay una percepci\u00f3n de riesgo y amenaza constante, es comprensible que una respuesta tard\u00eda pueda generar tristeza o ansiedad.\n\nEn resumen, la pandemia de Covid19, al generar un ambiente de incertidumbre y estr\u00e9s, puede favorecer que los retrasos en las respuestas sean percibidos de manera m\u00e1s negativa y cause emociones negativas como tristeza o ansiedad.",
+    "negative_topics": [
+      "late reply due",
+      "covid19 pandemic",
+      "covid19 pandemic means"
+    ],
+    "sentiment_sequence": [
+      "Positivo",
+      "Positivo",
+      "Positivo",
+      "Positivo",
+      "Positivo",
+      "Positivo",
+      "Positivo",
+      "Positivo",
+      "Positivo",
+      "Neutral",
+      "Negativo",
+      "Positivo",
+      "Positivo",
+      "Neutral",
+      "Neutral",
+      "Positivo",
+      "Positivo",
+      "Positivo",
+      "Neutral",
+      "Neutral",
+      "Positivo",
+      "Positivo",
+      "Positivo",
+      "Positivo",
+      "Negativo",
+      "Negativo"
+    ],
+    "toxic_interactions": []
+  },
+  "tweets": [
+    {
+      "hashtags": "",
+      "mentions": "LeoFielding12",
+      "original_text": "12 Thanks for your message Our Covid19 Help Hub provides all the information you need from changing y ",
+      "rts": "365.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform need chang"
+    },
+    {
+      "hashtags": "",
+      "mentions": "body_scrubs",
+      "original_text": " Thanks for your message Our Covid19 Help Hub provides all the information you need from changing you ",
+      "rts": "3.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform need chang"
+    },
+    {
+      "hashtags": "",
+      "mentions": "justknighty",
+      "original_text": " Thanks for your message Our Covid19 Help Hub provides all the information you need from changing you ",
+      "rts": "19.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform need chang"
+    },
+    {
+      "hashtags": "",
+      "mentions": "Decimusdesign",
+      "original_text": " Thanks for your message Our Covid19 Help Hub provides all the information you need from changing y ",
+      "rts": "1.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform need chang"
+    },
+    {
+      "hashtags": "",
+      "mentions": "charlielhannam",
+      "original_text": " Thanks for your message Our Covid19 Help Hub provides all the information you need from changing ",
+      "rts": "384.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform need chang"
+    },
+    {
+      "hashtags": "",
+      "mentions": "MegDouthwaite",
+      "original_text": " Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and ",
+      "rts": "4.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher"
+    },
+    {
+      "hashtags": "",
+      "mentions": "DenimNatalie",
+      "original_text": " We have just launched a new Covid19 Help Hub which should provide the fastest and easiest way to fin ",
+      "rts": "0.0",
+      "sentiment": "Positivo",
+      "text": "launch new covid19 help hub provid fastest easiest way fin"
+    },
+    {
+      "hashtags": "",
+      "mentions": "TheUncovereds",
+      "original_text": " Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and ",
+      "rts": "639.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher"
+    },
+    {
+      "hashtags": "",
+      "mentions": "Cassio_CPRD",
+      "original_text": " Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and re ",
+      "rts": "48.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher"
+    },
+    {
+      "hashtags": "",
+      "mentions": "RichStewart85",
+      "original_text": "85 Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and ",
+      "rts": "0.0",
+      "sentiment": "Neutral",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher"
+    },
+    {
+      "hashtags": "",
+      "mentions": "sophiethomas123",
+      "original_text": "123 Due to the impact of the Covid19 pandemic were seeing a reduction in staff at some of our call ",
+      "rts": "1.0",
+      "sentiment": "Negativo",
+      "text": "due impact covid19 pandem see reduct staff call"
+    },
+    {
+      "hashtags": "",
+      "mentions": "Beckieoddy_x",
+      "original_text": " Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and r ",
+      "rts": "0.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher "
+    },
+    {
+      "hashtags": "",
+      "mentions": "Matt_Bruff",
+      "original_text": " Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and ref ",
+      "rts": "1.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher ref"
+    },
+    {
+      "hashtags": "",
+      "mentions": "ruthlloyd6btin1",
+      "original_text": "6btin1 Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers an ",
+      "rts": "1.0",
+      "sentiment": "Neutral",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher"
+    },
+    {
+      "hashtags": "",
+      "mentions": "BarryJane44",
+      "original_text": "44 Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and re ",
+      "rts": "8.0",
+      "sentiment": "Neutral",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher"
+    },
+    {
+      "hashtags": "",
+      "mentions": "MinniB87",
+      "original_text": "87 Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and refun ",
+      "rts": "11.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher refun"
+    },
+    {
+      "hashtags": "",
+      "mentions": "hayley_snailz",
+      "original_text": " Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and ",
+      "rts": "6.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher"
+    },
+    {
+      "hashtags": "",
+      "mentions": "ChrisMontana_",
+      "original_text": " Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and ",
+      "rts": "0.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher"
+    },
+    {
+      "hashtags": "",
+      "mentions": "petergno1",
+      "original_text": "1 Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and refu ",
+      "rts": "7317.0",
+      "sentiment": "Neutral",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher refu"
+    },
+    {
+      "hashtags": "",
+      "mentions": "DavidSarti14",
+      "original_text": "14 Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and r ",
+      "rts": "0.0",
+      "sentiment": "Neutral",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher "
+    },
+    {
+      "hashtags": "",
+      "mentions": "MrsNettyMiles",
+      "original_text": " Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and ",
+      "rts": "0.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher"
+    },
+    {
+      "hashtags": "",
+      "mentions": "SunieDaze",
+      "original_text": " Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and refu ",
+      "rts": "2862.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher refu"
+    },
+    {
+      "hashtags": "",
+      "mentions": "bossito",
+      "original_text": " Thanks for your message Our Covid19 Help Hub provides information on flight changes vouchers and refund ",
+      "rts": "731.0",
+      "sentiment": "Positivo",
+      "text": "thank messag covid19 help hub provid inform flight chang voucher refund"
+    },
+    {
+      "hashtags": "",
+      "mentions": "bridiedavies_x",
+      "original_text": " We have just launched a new Covid19 Help Hub which should provide the fastest and easiest way to f ",
+      "rts": "363.0",
+      "sentiment": "Positivo",
+      "text": "launch new covid19 help hub provid fastest easiest way "
+    },
+    {
+      "hashtags": "",
+      "mentions": "bazzaclarke99",
+      "original_text": " Due to the impact of the Covid19 pandemic we are seeing a reduction in staff at some of our call ce ",
+      "rts": "588.0",
+      "sentiment": "Negativo",
+      "text": "due impact covid19 pandem see reduct staff call ce"
+    },
+    {
+      "hashtags": "",
+      "mentions": "nicola_bourke",
+      "original_text": " Hi Nicola Im really sorry for the late reply Due to the impact of the Covid19 pandemic means we ",
+      "rts": "0.0",
+      "sentiment": "Negativo",
+      "text": "hi nicola realli sorri late repli due impact covid19 pandem mean"
+    }
+  ]
+}

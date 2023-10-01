@@ -92,3 +92,12 @@
     background: $primary;
   }
 }
+
+.positive {
+  background: $success;
+}
+
+.negative {
+  background: $danger;
+  color: $white;
+}

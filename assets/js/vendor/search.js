@@ -277,7 +277,7 @@ function builderMessage(data) {
 function searchByUser(user) {
 	let url = 'http://127.0.0.1:8088/';
 	if (window.location.hostname === 'web.psychonet.lndo.site') {
-		url = 'https://jjpeleato.com/hackathon/20230930_0315.json';
+		url = 'https://jjpeleato.com/hackathon/20230930_0600.json';
 	} else {
 		url += user;
 	}
