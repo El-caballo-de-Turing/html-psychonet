@@ -33,7 +33,7 @@
 
     &:hover {
       cursor: pointer;
-      background: #4a5363;
+      background: $primary-hover;
       color: $white;
     }
   }
@@ -51,7 +51,7 @@
     margin: 50px 100px;
 
     &--clarifications {
-      background: #ebf3fe;
+      background: $primary;
       padding: 20px;
       border-radius: 7px;
     }
@@ -69,27 +69,15 @@
   &__messages {
     display: flex;
     flex-wrap: wrap;
-
-    .wrapper__element {
-      width: 32%;
-      margin-right: 1%;
-      background: #ebf3fe;
-      padding: 20px;
-      border-radius: 7px;
-    }
-
-    .positive {
-      background: $success;
-    }
-
-    .negative {
-      background: $danger;
-      color: $white;
-    }
   }
 
   &__element {
+    width: 32%;
+    margin-right: 1%;
     margin-bottom: 10px;
+    background: $primary;
+    padding: 20px;
+    border-radius: 7px;
   }
 
   &__title {
@@ -101,15 +89,15 @@
     margin-top: 4px;
     margin-right: 10px;
     border-radius: 7px;
-    background: #ebf3fe;
-
-    &.positive {
-      background: $success;
-    }
-
-    &.negative {
-      background: $danger;
-      color: $white;
-    }
+    background: $primary;
   }
+}
+
+.positive {
+  background: $success;
+}
+
+.negative {
+  background: $danger;
+  color: $white;
 }
